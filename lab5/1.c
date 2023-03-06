@@ -11,7 +11,7 @@ int main() {
         case -1:
             return 0;
         case 0:
-            primes_switch_funcs();
+            primes_switch_func();
             area_switch_func();
             break;
         case 1: {

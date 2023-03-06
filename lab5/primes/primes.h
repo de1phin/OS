@@ -1,2 +1,2 @@
 int count_primes(int, int);
-void primes_switch_funcs();
+void primes_switch_func();

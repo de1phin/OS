@@ -22,7 +22,7 @@ void load_libs() {
         exit(1);
     }
 
-    primeslib = dlopen("./primes.so", RTLD_LAZY);
+    primeslib = dlopen("./primes.so", RTLD_NOW);
     if (!primeslib) {
         dlclose(arealib);
         printf("failed to load primes lib\n");
